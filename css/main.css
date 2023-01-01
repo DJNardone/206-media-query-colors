@@ -60,7 +60,41 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: pink;
+    background-color: darkgray;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+
+  #column-1 {
+    background-color: red;
+  }
+
+  #column-2 {
+    background-color: blue;
+  }
+
+  #column-3 {
+    background-color: green;
+    width: 100%;
+  }
+
+  footer {
+    background-color: darkgray;
+  }
+  
+}
+
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color: gray;
+  }
+
+  .col-3 {
+    width: 33.3333%;
   }
 
   #column-1 {
@@ -73,35 +107,11 @@ footer {
 
   #column-3 {
     background-color: lightgreen;
+    width: 33.3333%;
   }
 
   footer {
-    background-color: pink;
-  }
-  
-}
-
-
-/*---------- Desktops ----------*/
-@media (min-width: 1200px) {
-  header {
-    background-color: maroon;
-  }
-
-  #column-1 {
-    background-color: purple;
-  }
-
-  #column-2 {
-    background-color: yellow;
-  }
-
-  #column-3 {
-    background-color: teal;
-  }
-
-  footer {
-    background-color: maroon;
+    background-color: gray;
   }
    
 }
